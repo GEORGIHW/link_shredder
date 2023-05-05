@@ -84,3 +84,7 @@ def short_url(short):
         return redirect(ur.original_url)
 
     return "Пусто"
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
